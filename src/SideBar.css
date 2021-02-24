@@ -1,0 +1,82 @@
+   .SideContainer{
+     margin:2%;
+     padding:2%;
+     
+    border:1px solid rgba(0, 0, 255, 0.123);
+   }
+  .sliderContainer{
+      display:grid;
+      grid-template-columns: 75% 25%;
+  }
+  .Container1{
+    border:1px solid rgba(0, 0, 0, 0.158);
+    padding:2%;
+    margin:2%;
+  }
+  .slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 35%;
+    background: #4aec3bc5;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 35%;
+    background: #4aec3bc5;
+    cursor: pointer;
+  }
+  .displayGreen{
+    background-color: #4aec3bc5;
+    margin:200%;
+    border:11px solid black;
+  }
+  .sliderValue{
+      text-decoration: none;
+      border: 1px solid rgba(68, 66, 66, 0.575);
+      outline-style: none;
+      text-align: center;
+  }
+  .TagsContainer > button{
+   border:none;
+   outline-style: none;
+   padding:2%;
+   margin:2%;
+  }
+  .RatingContainer > button{
+    border:none;
+    outline-style: none;
+    margin:2%;
+    border:1px solid black;
+   }
+   .RatingSubContainer{
+     display:grid;
+     grid-template-columns: 80% 20%;
+   }
+   .Rate{
+     margin:2%;
+   }
+   .RatingSubContainer >button{
+     outline-style: none;
+     border: none;
+     margin:2%;
+   }

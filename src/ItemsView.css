@@ -1,0 +1,27 @@
+.ItemsView{
+    font-family: helvetica neue,arial,helvetica,freesans,liberation sans,numbus sans l,sans-serif;
+    font-size: 16px;
+    color: #162040;
+    display:grid;
+    line-height: 1.5;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.Item{
+    padding-top:2%;
+    border:1px solid rgba(0, 0, 255, 0.123);
+    margin:2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.Item:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.651);
+}
+.Item>p{
+    margin:5px 0px;
+}

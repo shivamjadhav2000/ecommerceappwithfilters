@@ -1,0 +1,41 @@
+.Container{
+    margin:2%;
+    padding:2%;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    text-align: center;
+    
+    font-family: helvetica neue,arial,helvetica,freesans,liberation sans,numbus sans l,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #162040;
+}
+.navbar{
+    margin:5px 10px;
+    background-color: rgba(6, 6, 252, 0.966);
+    color: rgb(255, 255, 255);
+    font-family: helvetica neue,arial,helvetica,freesans,liberation sans,numbus sans l,sans-serif;
+    font-size: 20px;
+    padding:5px;
+}
+.Container2{
+    text-align: center;
+    align-items: center;
+    margin-top:20%;
+}
+.Foot{
+    border-radius: 5px;
+    margin: 5% 0%;
+    background-color: rgba(0, 0, 0, 0.274);
+    text-align: center;
+    align-items: center;
+    margin-bottom:2px;
+  }
+  .iconsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialMIcons{
+      margin:2%
+  }

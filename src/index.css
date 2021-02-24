@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+    font-family: helvetica neue,arial,helvetica,freesans,liberation sans,numbus sans l,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #162040;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
